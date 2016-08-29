@@ -16,18 +16,26 @@
     
     <section>
         <form action="send.php" method="post" class="mdl-card__supporting-text">
+            <!-- EMAIL -->
             <div class="mdl-textfield mdl-js-textfield">
-               <input class="mdl-textfield__input" type="text" id="text1">
-               <label class="mdl-textfield__label" for="email">Email</label>
+                <label class="mdl-textfield__label" for="email">Email</label>
+                <input class="mdl-textfield__input" type="text" id="email">
             </div>
-            
+            <!-- OBJET -->
             <div class="mdl-textfield mdl-js-textfield">
-                <textarea class="mdl-textfield__input" type="text" id="text1" cols="30" rows="10"></textarea>
-               <label class="mdl-textfield__label" for="email">Message...</label>
+               <input class="mdl-textfield__input" type="text" id="obj">
+               <label class="mdl-textfield__label" for="obj">Objet</label>
             </div>
-            
+            <!-- MESSAGE -->
+            <div class="mdl-textfield mdl-js-textfield">
+                <textarea class="mdl-textfield__input" type="text" id="mess" cols="30" rows="10"></textarea>
+               <label class="mdl-textfield__label" for="mess">Message...</label>
+            </div>
+            <!-- ENVOYER -->
             <input type="submit" value="Envoyer" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
         </form>
+        
+        
         
         
     </section>
