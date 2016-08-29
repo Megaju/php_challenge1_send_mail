@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+    color: #565656;
+}
+
+header, section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mdl-textfield {
+    display: block;
+}
